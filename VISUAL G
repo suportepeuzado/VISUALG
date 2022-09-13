@@ -1,0 +1,14 @@
+algoritmo "SALARIO "
+var
+ S, resultado:real
+inicio
+escreva("Qual o seu salario?")
+leia (S)
+se ( S <= 500 ) entao
+S <- S *0.20 + S
+escreva( " Seu aumento é de 20% e seu salario eh ",S)
+senao entao
+S <- S *0.10 + S
+escreva("Seu aumento é de 10% e seu salario eh ",S)
+fimse
+fimalgoritmo
